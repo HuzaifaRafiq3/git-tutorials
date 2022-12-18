@@ -1,4 +1,16 @@
 # the files which you are not willing to track 
 # this file mylogs.log will not be shown in your git status
 #because these files are ignored by git
+/mylogs.log   
+#this / will allow you to ignore only those files which are in front of .gitignore not in any folder
 mylogs.log
+
+#while this will ignore the files even if they are in the file
+
+ignore/
+
+#this will ignore the folder that you want to ignore
+
+*.log
+
+#this will ignore the files that have extension .log
