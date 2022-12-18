@@ -1,0 +1,4 @@
+# the files which you are not willing to track 
+# this file mylogs.log will not be shown in your git status
+#because these files are ignored by git
+mylogs.log
